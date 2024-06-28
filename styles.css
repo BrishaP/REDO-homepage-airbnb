@@ -6,36 +6,36 @@
 }
 
 html, body,.Future-Inspo {
-    width: 100%;
+    background-color: white;
     height: 100%;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    background-color: white;
+    width: 100%;
 }
 
 header {
-    display: flex;
-    position: fixed;
-    width: 100%;
     align-items: center;
-    justify-content: flex-start;
-    top: 0;
-    left: 0;
-    height: 50px; 
     background-color: white;
+    display: flex;
+    height: 50px; 
+    justify-content: flex-start;
+    left: 0;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 1000;
 }
 header img{
-    width: 50px;
     height: 50px;
-    top:0
-    left:0
+    left:0;
+    top:0;
+    width: 50px;
 
 }
 header h1 {
     font-size: 15px;
-    margin-top: 5px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 header h2 {
@@ -44,16 +44,16 @@ header h2 {
 }
 
 .scrolling-accommodation-container {
-    position: fixed;
-    display: flex;
-    overflow-x: auto;
-    width: 100%;
-    gap: 20px; 
     background-color: white;
-    top: 50px; 
+    display: flex;
+    gap: 20px; 
     left: 0;
-    z-index: 999;
+    overflow-x: auto;
     padding: 5px; 
+    position: fixed;
+    top: 50px; 
+    width: 100%;
+    z-index: 999;
 }
 
 .scrolling-accommodation-container::-webkit-scrollbar {
@@ -62,16 +62,16 @@ header h2 {
 
 .item {
     flex: 0 0 auto;
-    width: px;
     text-align: center;
+    width: px;
 }
 
 .item img {
-    width: 50px;
-    height: 50px;
     border-radius: 10px;
-    object-fit: cover;
+    height: 50px;
     margin-bottom: 5px;
+    object-fit: cover;
+    width: 50px;
 }
 
 .item p {
@@ -79,22 +79,22 @@ header h2 {
 }
 
 main {
-    margin-top: 160px; 
-    margin-bottom: 100px;
-    padding: 20px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 160px; 
+    padding: 20px;
 }
 
 .examples {
+    align-items: center;
     display: flex;
     flex-wrap: wrap; 
     gap: 5px; 
     justify-content: center;
-    align-items: center;
-    width: calc(100% - 40px); 
     margin: 0 auto; 
+    width: calc(100% - 40px); 
 }
 
 .examples h3 {
@@ -104,12 +104,12 @@ main {
 }
 
 .examples img {
-    width: 100%;
-    height: auto;
+    margin-bottom: 10px; 
     aspect-ratio: 1 / 1; /* Square images */
     border-radius: 15px;
+    height: auto;
     object-fit: cover;
-     margin-bottom: 10px; 
+    width: 100%;
 }
 
 .examples p {
@@ -118,13 +118,13 @@ main {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 50px;
     background-color: white;
-    width: 100%;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    position: fixed;
     text-align: center;
+    width: 100%;
 }
 
 .Future-Inspo h2{
